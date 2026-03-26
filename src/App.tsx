@@ -15,7 +15,7 @@ type State = {
 
 export class App extends React.Component<{}, State> {
   state = {
-    hasClock: false,
+    hasClock: true,
     clockName: 'Clock-0',
   };
 
